@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pic {
+    height: 350px;
+    width: 350px;
+}
+
+.big-pic {
+    grid-row: 3/1;
+}
+
+.big-pic img{
+    height: 730px;
+    width: 350px;
+    object-fit: cover;
+}
+
+#spring-title {
+    text-align: center;
+}

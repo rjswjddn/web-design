@@ -1,0 +1,35 @@
+#sectionimg {
+  height: 840px;
+  width: 100%;
+}
+
+section div{
+  display: block;
+  position: absolute;
+  background-color: white;
+  left: 100px;
+  top: 200px;
+  height: 60%;
+  width: 20%;
+}
+
+
+#contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contents-img {
+  height: 700px;
+}
+
+#contents-article {
+  width: 50%;
+}
+
+article p {
+  font-family: 맑은고딕;
+  color: black;
+  font-size: 18px;
+  margin: 20px;
+}

@@ -1,0 +1,75 @@
+.grid {
+    height: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2, 570px);
+    grid-template-rows: repeat(2, 570px);
+}
+
+
+#img1 {
+    width: 530px;
+    height: 530px;
+    animation-name: changeSeasons1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#img2 {
+    width: 530px;
+    height: 530px;
+    animation-name: changeSeasons2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#img3 {
+    width: 530px;
+    height: 530px;
+    animation-name: changeSeasons3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#img4 {
+    width: 530px;
+    height: 530px;
+    animation-name: changeSeasons4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeSeasons1 {
+    0%, 20% { transform:translateX(0px); }
+    25%, 45% { transform:translateX(570px); }
+    50%, 70% { transform:translate(570px, 570px); }
+    75%, 95% { transform:translateY(570px); }
+    100% { transform:translateX(0px); }
+}
+
+@keyframes changeSeasons2 {
+    0%, 20% { transform:translateX(0px); }
+    25%, 45% { transform:translateY(570px); }
+    50%, 70% { transform:translate(-570px, 570px); }
+    75%, 95% { transform:translateX(-570px); }
+    100% { transform:translateX(0px); }
+}
+
+@keyframes changeSeasons4 {
+    0%, 20% { transform:translateX(0px); }
+    25%, 45% { transform:translateX(-570px); }
+    50%, 70% { transform:translate(-570px, -570px); }
+    75%, 95% { transform:translateY(-570px); }
+    100% { transform:translateX(0px); }
+}
+
+@keyframes changeSeasons3 {
+    0%, 20% { transform:translateX(0px); }
+    25%, 45% { transform:translateY(-570px); }
+    50%, 70% { transform:translate(570px, -570px); }
+    75%, 95% { transform:translateX(570px); }
+    100% { transform:translateX(0px); }
+}
+
+#summer-title {
+    text-align: center;
+}
