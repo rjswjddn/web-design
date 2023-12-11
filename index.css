@@ -1,17 +1,3 @@
-#sectionimg {
-  height: 840px;
-  width: 100%;
-}
-
-section div{
-  display: block;
-  position: absolute;
-  background-color: white;
-  left: 100px;
-  top: 200px;
-  height: 60%;
-  width: 20%;
-}
 
 
 #contents {
